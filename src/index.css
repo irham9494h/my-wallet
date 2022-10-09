@@ -1,3 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  /* poppins-regular - latin */
+  @font-face {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    src: url("./assets/fonts/Poppins-Regular.ttf") format("truetype");
+  }
+
+  html {
+    @apply font-poppins tracking-normal text-gray-900;
+  }
+}

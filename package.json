@@ -11,10 +11,14 @@
   "dependencies": {
     "@headlessui/react": "^1.7.3",
     "@heroicons/react": "^2.0.12",
+    "chart.js": "^3.9.1",
     "classnames": "^2.3.2",
+    "date-fns": "^2.29.3",
     "firebase": "^9.10.0",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-chartjs-2": "^4.3.1",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.4.2"
   },
   "devDependencies": {
     "@types/react": "^18.0.17",
